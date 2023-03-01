@@ -1,33 +1,17 @@
-/* h1 {
-  text-align: center;
+.pgnt {
+  color: blue;
+  list-style: none;
+  cursor: pointer;
 }
-.posts {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
+.pgnt a {
+  padding: 10px;
+  border: 1px solid;
 }
-.comments {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
+.pgnt__link--active a {
+  color: #fff;
+  background: #47a7de;
 }
-.albums {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
+.pgnt__link--disabled a {
+  color: lightgray;
+  border: 1px solid red;
 }
-.photos {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-}
-.todos {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-}
-.users {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-} */

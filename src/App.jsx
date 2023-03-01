@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react';
 import './App.css';
+import Pagination from './components/Pagination';
 
 function App() {
   var [data,setData] = useState([''])
@@ -147,7 +148,9 @@ function App() {
             })
           }
           </div>
+          <Pagination></Pagination>
         </div>
+        
         <div className="tab-pane fade todos" id="nav-todos" role="tabpanel" aria-labelledby="nav-todos-tab">
         <div className='text-center'>
         <h1>Todos</h1>
